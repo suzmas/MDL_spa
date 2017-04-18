@@ -45,7 +45,10 @@ img {
   width: 50px;
   margin: 7px auto;
 }
-
+.box {
+  min-height: 48px;
+  display: block;
+}
 .site-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
@@ -77,6 +80,8 @@ img {
 
 .navigation-tabs {
   background-color: #fefefe;
+  width: 100vw;
+  z-index: 1000000;
   position: sticky;
   top: 0px;
 }
