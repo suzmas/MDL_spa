@@ -46,8 +46,7 @@ img {
   margin: 7px auto;
 }
 .box {
-  min-height: 48px;
-  display: block;
+  min-height: 40px;
 }
 .site-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
