@@ -75,6 +75,12 @@ img {
   opacity: 1;
 }
 
+.navigation-tabs {
+  background-color: #fefefe;
+  position: sticky;
+  top: 0px;
+}
+
 .mdl-layout__header .mdl-layout__drawer-button {
   color: #fff;
 }
