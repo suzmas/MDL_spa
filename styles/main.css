@@ -45,9 +45,6 @@ img {
   width: 50px;
   margin: 7px auto;
 }
-.box {
-  min-height: 40px;
-}
 .site-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
@@ -80,9 +77,20 @@ img {
 .navigation-tabs {
   background-color: #fefefe;
   width: 100vw;
-  z-index: 1000000;
+  height: 100px;
+  z-index: 10000;
   position: sticky;
   top: 0px;
+  padding-top: 10px;
+}
+
+.mdl-tabs__tab {
+  height: 80px;
+  line-height: 45px;
+}
+
+.mdl-tabs__tab i {
+  display: block;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
