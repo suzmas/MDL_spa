@@ -89,8 +89,9 @@ img {
   line-height: 45px;
 }
 
-.mdl-tabs__tab i {
+.mdl-tabs__tab .material-icons {
   display: block;
+  font-size: 36px;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
