@@ -2,9 +2,9 @@ img {
   max-width: 100%;
 }
 
-.site-header {
+/*.site-header {
   position: relative;
-}
+}*/
 
 .site-header .mdl-layout__header-row {
   padding: 0;
@@ -89,6 +89,9 @@ img {
   line-height: 45px;
 }
 
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color: #424242;
+}
 .mdl-tabs__tab .material-icons {
   display: block;
   font-size: 36px;
