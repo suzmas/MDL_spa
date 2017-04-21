@@ -102,15 +102,15 @@ img {
 }
 
 .mdl-layout__content {
-  background-color: #f4f4f4;
+  background-color: #f5f7ff;
 }
 
 .mdl-cell {
-  background-color: #f4f4f4;
+  background-color: #f5f7ff;
 }
 
 .mdl-tabs__panel {
-  background-color: #f4f4f4;
+  background-color: #f5f7ff;
 }
 
 .site-content {
@@ -132,9 +132,8 @@ img {
   max-width: 700px;
 }
 
-.welcome-card > .mdl-card__title {
-  color: #fff;
-  height: 190px;
+.welcome-card {
+  align-items: center;
 }
 
 .event-card {
