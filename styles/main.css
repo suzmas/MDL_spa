@@ -89,15 +89,12 @@ img {
 #logo {
   position: absolute;
   left: 0;
+  font-size: 1.3rem;
+  color: #048679;
 }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
   color: rgba(0,0,0,.54);
-}
-
-.mdl-tabs__tab .material-icons {
-  display: block;
-  font-size: 32px;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
@@ -105,7 +102,11 @@ img {
 }
 
 .mdl-layout__content {
-  background-color: #fefefe;
+  background-color: #f4f4f4;
+}
+
+.mdl-tabs__panel {
+  background-color: #f4f4f4;
 }
 
 .site-content {
@@ -130,7 +131,7 @@ img {
 .welcome-card > .mdl-card__title {
   color: #fff;
   height: 290px;
-  background: url("../img/cover.jpg") center/cover;
+  background: url("../img/gaerfield_client.svg") center/cover;
 }
 
 .event-card {
