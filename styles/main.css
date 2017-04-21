@@ -85,6 +85,19 @@ img {
   font-family: 'Istok Web', open-sans;
   justify-content: flex-end;
 }
+/* mobile-small */
+@media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) {
+  .navigation-tabs {
+    justify-content: center;
+  }
+ }
+
+/* mobile-large */
+@media all and (min-width: 361px) and (orientation: portrait) {
+  .navigation-tabs {
+    justify-content: center;
+  }
+}
 
 #logo {
   position: absolute;
