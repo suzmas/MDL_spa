@@ -2,10 +2,6 @@ img {
   max-width: 100%;
 }
 
-/*.site-header {
-  position: relative;
-}*/
-
 .site-header .mdl-layout__header-row {
   padding: 0;
   -ms-flex-pack: center;
@@ -85,13 +81,13 @@ img {
   font-family: 'Istok Web', open-sans;
   justify-content: flex-end;
 }
+
 /* mobile-small */
 @media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) {
   .navigation-tabs {
     justify-content: center;
   }
  }
-
 /* mobile-large */
 @media all and (min-width: 361px) and (orientation: portrait) {
   .navigation-tabs {
@@ -260,10 +256,15 @@ img.article-image {
   z-index: 900;
 }
 
-footer .mdl-logo a {
+footer ul {
   color: #fff;
+  padding: 0;
   text-decoration: none;
-  border-bottom: 1px dotted #aaa;
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline;
 }
 
 .footer-container {
