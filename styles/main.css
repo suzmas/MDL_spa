@@ -105,6 +105,10 @@ img {
   background-color: #f4f4f4;
 }
 
+.mdl-cell {
+  background-color: #f4f4f4;
+}
+
 .mdl-tabs__panel {
   background-color: #f4f4f4;
 }
@@ -130,8 +134,7 @@ img {
 
 .welcome-card > .mdl-card__title {
   color: #fff;
-  height: 290px;
-  background: url("../img/gaerfield_client.svg") center/cover;
+  height: 190px;
 }
 
 .event-card {
