@@ -82,12 +82,7 @@ img {
   top: 0;
   align-items: center;
   font-family: 'Istok Web', open-sans;
-  font-weight: bold;
-}
-
-.mdl-tabs__tab {
-  height: 60px;
-  line-height: 24px;
+  justify-content: flex-end;
 }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
