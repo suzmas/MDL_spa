@@ -212,6 +212,10 @@ img {
   padding-bottom: 0;
 }
 
+#work-panel .portfolio-card {
+  background-color: #fff;
+}
+
 img.article-image {
   width: 100%;
   height: auto;
