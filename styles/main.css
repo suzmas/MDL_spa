@@ -132,6 +132,18 @@ img {
   padding-bottom: 2em;
 }
 
+#contact-panel .page-content {
+  background-color: #fff;
+}
+
+#contact-panel .mdl-cell {
+  background-color: #fff;
+}
+
+#contact-panel .mdl-site-copy {
+  background-color: #fff;
+}
+
 .site-max-width {
   max-width: 900px;
   margin: auto;
