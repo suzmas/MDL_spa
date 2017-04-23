@@ -91,7 +91,7 @@ img {
  /* mobile-small-landscape */
 @media all and (min-width: 481px) and (orientation: landscape) and (max-width: 667px){
   #splash-pg-left, #splash-pg-right {
-    max-width: 50%;
+    max-width: 45%;
   }
 }
 
@@ -104,7 +104,7 @@ img {
 #logo {
   position: absolute;
   left: 0;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #048679;
 }
 
