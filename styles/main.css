@@ -136,6 +136,10 @@ img {
   font-family: "Istok Web", sans-serif;
 }
 
+#home-panel img {
+  max-width: 90%;
+}
+
 #contact-panel .page-content {
   background-color: #fff;
 }
