@@ -2,84 +2,21 @@ img {
   max-width: 100%;
 }
 
-.site-header .mdl-layout__header-row {
-  padding: 0;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.site-description {
-  display: block;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.is-compact .mdl-layout__title span {
-  display: none;
-}
-
-.site-logo-row {
-  min-height: 200px;
-}
-
-.is-compact .site-logo-row {
-  min-height: auto;
-}
-
-.site-logo {
-  background: url(../img/site-logo.png) 50% no-repeat;
-  background-size: cover;
-  height: 120px;
-  width: 120px;
-  margin: 15px auto;
-}
-
-.is-compact .site-logo {
-  height: 50px;
-  width: 50px;
-  margin: 7px auto;
-}
-
-.site-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-transform: uppercase;
-  height: 45px;
-}
-
-.site-navigation-row .mdl-navigation {
-  text-align: center;
-  max-width: 900px;
-  width: 100%;
-}
-
-.site-navigation-row .mdl-navigation__link {
-  -ms-flex: 1;
-  flex: 1;
-  line-height: 42px;
-  color: #fff;
-}
-
-.site-navigation-row .is-active {
-  position: relative;
-  font-weight: bold;
-  opacity: 1;
-}
-
-.site-navigation-row .mdl-navigation__link:hover {
-  opacity: 1;
-}
-
 .navigation-tabs {
   width: 100vw;
   background-color: white;
   z-index: 3;
   position: sticky;
   top: 0;
-  align-items: center;
   font-family: 'Istok Web', open-sans;
   justify-content: flex-end;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  font-size: 1.3rem;
+  color: #048679;
 }
 
 /* mobile-small */
@@ -95,43 +32,14 @@ img {
   }
 }
 
- @media all and (min-width: 510) and (max-width: 839px) {
-   .mdl-cell {
-     background-color: red;
-   }
-  }
-
-#logo {
-  position: absolute;
-  left: 0;
-  font-size: 1.3rem;
-  color: #048679;
-}
-
-.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
-  color: rgba(0,0,0,.54);
-}
-
-.mdl-layout__header .mdl-layout__drawer-button {
-  color: #fff;
-}
-
-.mdl-layout__content {
-  background-color: #f5f7ff;
-}
-
-.mdl-cell {
-  background-color: #f5f7ff;
-}
-
-.mdl-tabs__panel {
+.mdl-layout__content, .mdl-cell, .mdl-tabs__panel {
   background-color: #f5f7ff;
 }
 
 .site-content {
   margin: 1em auto;
-  min-height: 100vh;
-  font-family: 'Open Sans', open-sans;
+  min-height: 90vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page-content {
@@ -139,7 +47,7 @@ img {
 }
 
 .mdl-button {
-  font-family: "Istok Web", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #home-panel img {
@@ -175,69 +83,6 @@ img {
   align-items: center;
 }
 
-.event-card {
-  background: #3E4EB8;
-}
-
-.event-card .mdl-card__actions {
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-.event-card .mdl-card__title {
-  -ms-flex-align: start;
-      align-items: flex-start;
-}
-
-.event-card .mdl-card__title > h4 {
-  margin-top: 0;
-}
-
-.event-card .mdl-card__actions {
-  display: -ms-flexbox;
-  display: flex;
-  box-sizing: border-box;
-  -ms-flex-align: center;
-      align-items: center;
-}
-
-.event-card .mdl-card__actions > .material-icons {
-  padding-right: 10px;
-}
-
-.event-card .mdl-card__title,
-.event-card .mdl-card__actions,
-.event-card .mdl-card__actions > .mdl-button {
-  color: #fff;
-}
-
-.section__play-btn {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  min-height: 150px;
-}
-
-.section__play-btn .material-icons {
-  font-size: 3rem;
-}
-
-.section--center {
-  margin: 0 auto 2rem;
-}
-
-.homepage-portfolio .mdl-button {
-  margin: 0 auto;
-}
-
-.homepage-footer {
-  background: #eee;
-  margin-bottom: -1em;
-  padding: 2rem 0;
-}
-
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
 }
@@ -249,31 +94,6 @@ img {
 img.article-image {
   width: 100%;
   height: auto;
-}
-
-.demo-card-image.mdl-card {
-  width: 192px;
-  height: 192px;
-}
-
-.person1 {
-  background: url("../img/person1.jpg") center/cover;
-}
-
-.person2 {
-  background: url("../img/person2.jpg") center/cover;
-}
-
-.demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.demo-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .form-contact .mdl-textfield {
@@ -302,9 +122,12 @@ footer ul li {
   margin: 0 5px;
 }
 
+footer ul li a {
+  text-decoration: none;
+}
+
 .social-media-icon {
   max-width: 17%;
-  border: 1px solid white;
 }
 
 .footer-container {
