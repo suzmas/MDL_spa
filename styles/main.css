@@ -54,9 +54,18 @@ img {
 
 .page-intro {
   font-weight: 100;
-  font-size: 2em;
-  color: #2d2d2d;
+  line-height: normal;
+  color: #363636;
   margin: 0;
+}
+
+h1.page-intro {
+  font-size: 30px;
+}
+
+h2.page-intro {
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 .mdl-button {
