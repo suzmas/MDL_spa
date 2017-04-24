@@ -45,11 +45,6 @@ img {
 .site-content {
   margin: 1em auto;
   min-height: 85vh;
-  font-family: 'Roboto', sans-serif;
-}
-
-.page-content {
-  padding-bottom: 2em;
 }
 
 .page-intro {
@@ -92,6 +87,12 @@ h2.page-intro {
   background-color: #fff;
 }
 
+#contact-panel  p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+}
+
 .site-max-width {
   max-width: 900px;
   margin: auto;
@@ -116,6 +117,10 @@ h2.page-intro {
 img.article-image {
   width: 100%;
   height: auto;
+}
+
+#contact-panel a {
+  text-decoration: none;
 }
 
 .form-contact .mdl-textfield {

@@ -14,7 +14,7 @@
 
 <body id="top">
   <div class="mdl-layout mdl-js-layout mdl-color--grey-100
-    "><a href="#contact-panel" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><i class="material-icons">mail</i></a>
+    "><a href="#" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><i class="material-icons">mail</i></a>
 
     <main class="mdl-layout__content">
       <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
@@ -22,7 +22,7 @@
           <a href="#" class="mdl-tabs__tab mdl-cell--hide-phone" id="logo">Suzan Sucro</a>
           <a href="#home-panel" class="mdl-tabs__tab is-active">About</a>
           <a href="#work-panel" class="mdl-tabs__tab">Work</a>
-          <a href="#contact-panel" class="mdl-tabs__tab">Contact</a>
+          <a href="#contact-panel" class="mdl-tabs__tab contact">Contact</a>
         </div>
         <div class="site-content">
           <div class="container mdl-tabs__panel is-active" id="home-panel">
@@ -34,7 +34,7 @@
                 <div style="margin: auto;" class="mdl-card__supporting-text">
                   <h1 class="page-intro">Suzan Sucro</h2>
                   <h1 class="page-intro">Web Developer</h2>
-                  <h2 class="page-intro">Hi. I produce elegant, performant, and accessible digital experiences.</h2>
+                  <h2 class="page-intro">Hi. I produce elegant, performant, and accessible digital experiences.Hi. I produce elegant, performant, and accessible digital experiences.</h2>
                 </div>
               </div>
             </div>
@@ -189,26 +189,27 @@
             </div>
           </div>
 
-          <div class="container mdl-tabs__panel" id="contact-panel">
+          <div class="container mdl-tabs__panel contact" id="contact-panel">
             <div class="mdl-grid site-max-width">
-              <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp page-content">
+              <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
                 <div class="mdl-grid site-copy">
                   <div class="mdl-cell mdl-cell--12-col">
+                    <p>You can find me on <a href="http://github.com/suzmas">Github</a>, <a href="http://twitter.com/suzanmsu">Twitter</a>, and <a href="http://linkedin.com/in/suzan-sucro">LinkedIn</a>.</p>
                     <div class="mdl-card__supporting-text">
-                      <p>Contact our team using the contact form below:</p>
                       <form action="https://formspree.io/email@example.com" method="POST" class="form-contact">
+                        <p>Send me a message :-)</p>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                           <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" name="name">
-                          <label class="mdl-textfield__label" for="Name">Name...</label>
+                          <label class="mdl-textfield__label" for="Name"> Name</label>
                           <span class="mdl-textfield__error">Letters and spaces only</span>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                           <input class="mdl-textfield__input" type="text" id="Email" name="_replyto">
-                          <label class="mdl-textfield__label" for="Email">Email...</label>
+                          <label class="mdl-textfield__label" for="Email"> Email</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                           <textarea class="mdl-textfield__input" type="text" rows="5" id="note" name="message"></textarea>
-                          <label class="mdl-textfield__label" for="note">Enter note</label>
+                          <label class="mdl-textfield__label" for="note"> Message</label>
                         </div>
                         <p>
                           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
@@ -228,21 +229,22 @@
           <div class="footer-container">
             <ul>
               <li>
-                <a href="linkedin.com/in/suzan-sucro"><img class="social-media-icon" src="./img/linkedin2.svg"></img>
+                <a href="http://linkedin.com/in/suzan-sucro"><img class="social-media-icon" src="./img/linkedin2.svg"></img>
                 </a>
               </li>
               <li>
-                <a href="github.com/suzmas"><img class="social-media-icon" src="./img/github.svg"></img>
+                <a href="http://github.com/suzmas"><img class="social-media-icon" src="./img/github.svg"></img>
                 </a>
               </li>
               <li>
-                <a href="twitter.com/suzanmsu"><img class="social-media-icon" src="./img/twitter.svg"></img>
+                <a href="http://twitter.com/suzanmsu"><img class="social-media-icon" src="./img/twitter.svg"></img>
                 </a>
               </li>
             </ul>
         </footer>
     </main>
     <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    <script src="scripts/main.js" defer></script>
     </div>
 </body>
 
