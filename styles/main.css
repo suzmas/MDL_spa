@@ -24,6 +24,12 @@ img {
   .navigation-tabs {
     justify-content: center;
   }
+  h1.page-intro {
+    display: block;
+  }
+  h2.page-intro {
+    font-size: 1.5em !important;
+  }
  }
  /* mobile-small-landscape */
 @media all and (min-width: 481px) and (orientation: landscape) and (max-width: 667px){
@@ -55,11 +61,12 @@ img {
 }
 
 h1.page-intro {
-  font-size: 30px;
+  display: none;
+  font-size: 2em;
 }
 
 h2.page-intro {
-  font-size: 20px;
+  font-size: 1.5em;
   padding: 10px 0;
 }
 
