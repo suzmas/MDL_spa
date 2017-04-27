@@ -29,11 +29,8 @@ h1.page-intro {
   .navigation-tabs {
     justify-content: center;
   }
-  h1.page-intro {
-    display: block;
-  }
-  h2.page-intro {
-    font-size: 1.5em !important;
+  #splash-pg-left {
+    margin-top: -25%;
   }
  }
  /* mobile-small-landscape */
@@ -74,9 +71,6 @@ h2.page-intro {
   font-family: "Roboto", sans-serif;
 }
 
-#home-panel img {
-  max-width: 85%;
-}
 
 #splash-pg-left {
   max-height: 60vh;
