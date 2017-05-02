@@ -1,5 +1,9 @@
 
 
+document.addEventListener("DOMContentLoaded", setTimeout(function () {
+  (document.querySelector(".hidden")).classList.remove("hidden");
+}, 100));
+
 function goToContact() {
   const activeElements = document.querySelectorAll('.is-active');
   const contactElements =

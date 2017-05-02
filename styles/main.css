@@ -1,3 +1,7 @@
+.hidden {
+  display: none !important;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -92,18 +96,6 @@ h2.page-intro {
 
 .mdl-button {
   font-family: "Roboto", sans-serif;
-}
-
-@media all and (orientation: landscape) {
-  body:after {
-     content: "width is greater than height"
-  }
-}
-
-@media all and (orientation: portrait) {
-  body:after {
-     content: "height is greater than width"
-  }
 }
 
 #contact-panel .page-content {
