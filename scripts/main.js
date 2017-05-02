@@ -1,8 +1,10 @@
 
-
+ // temporary hack to control for MDL tab-panel issue on page load
+ // fix this bug!
 document.addEventListener("DOMContentLoaded", setTimeout(function () {
   (document.querySelector(".hidden")).classList.remove("hidden");
 }, 100));
+
 
 function goToContact() {
   const activeElements = document.querySelectorAll('.is-active');
