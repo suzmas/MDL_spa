@@ -74,16 +74,19 @@ a {
 .page-intro {
   font-weight: 400;
   line-height: normal;
-  color: #1d1d1d;
   margin: 0;
 }
 
 .page-intro.page-title {
+  font-family: "Dosis", sans-serif;
   font-size: 3em;
+  color: #2d2b2b;
 }
 
 h2.page-intro {
-  font-size: 1.5em;
+  font-family: "Istok Web", sans-serif;
+  font-size: 1.1em;
+  color: #5f5858;
   padding: 0;
 }
 
@@ -136,6 +139,10 @@ h2.page-intro {
 
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
+}
+
+.mdl-card__actions {
+  display: none;
 }
 
 #work-panel .portfolio-card {
