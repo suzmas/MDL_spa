@@ -1,4 +1,4 @@
-.hidden * {
+.hidden {
   display: none !important;
 }
 
@@ -25,7 +25,7 @@ a {
 #logo {
   position: absolute;
   left: 0;
-  font-size: 1.3rem;
+  font-size: 18px;
   color: #048679;
 }
 
@@ -56,16 +56,6 @@ a {
   }
 }
 
-@media all and (orientation: portrait) {
-
-  .splash-pg-left, .splash-pg-right {
-    max-height: 40vh;
-  }
-  .splash-pg-left {
-    margin-top: -25%;
-  }
-}
-
 .mdl-layout__content, .mdl-cell, .mdl-tabs__panel {
   background-color: #f5f7ff;
 }
@@ -76,7 +66,6 @@ a {
 }
 
 .page-intro {
-  text-align: center;
   font-weight: 400;
   line-height: normal;
   margin: 0;
@@ -84,19 +73,15 @@ a {
 
 .page-intro.page-title {
   font-family: "Dosis", sans-serif;
-  font-size: 3.1em;
+  font-size: 48px;
   color: #2d2b2b;
 }
 
 h2.page-intro {
   font-family: "Istok Web", sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
   color: #5f5858;
   padding: 0;
-}
-
-.mdl-button {
-  font-family: "Roboto", sans-serif;
 }
 
 #contact-panel .page-content {
@@ -113,7 +98,7 @@ h2.page-intro {
 
 #contact-panel  p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.1em;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -142,13 +127,9 @@ h2.page-intro {
   background-color: #fff;
 }
 
-img.article-image {
+.article-image {
   width: 100%;
   height: auto;
-}
-
-#contact-panel a {
-  text-decoration: none;
 }
 
 .form-contact .mdl-textfield {
