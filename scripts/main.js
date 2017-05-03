@@ -2,7 +2,9 @@
  // temporary hack to control for MDL tab-panel issue on page load
  // fix this bug!
 document.addEventListener("DOMContentLoaded", setTimeout(function () {
-  (document.querySelector(".hidden")).classList.remove("hidden");
+  const hiddenElems = document.querySelectorAll(".hidden");
+  for (let i = 0; i < hiddenElems.length; i++) {
+  hiddenElems[i].classList.remove("hidden");
 }, 1000));
 
 
