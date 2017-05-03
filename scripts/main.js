@@ -4,7 +4,8 @@
 document.addEventListener("DOMContentLoaded", setTimeout(function () {
   const hiddenElems = document.querySelectorAll(".hidden");
   for (let i = 0; i < hiddenElems.length; i++) {
-  hiddenElems[i].classList.remove("hidden");
+    hiddenElems[i].classList.remove("hidden");
+  }
 }, 1000));
 
 
