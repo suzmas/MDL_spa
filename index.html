@@ -11,8 +11,12 @@
   <link href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
 
-  <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
-  <script src="scripts/main.js"></script>
+  <!-- hacky temporary code to control for tab panel bug - all content is showing up during page load -->
+  <script>
+    document.addEventListener("DOMContentLoaded", setTimeout(function () {
+      (document.querySelector(".hidden")).classList.remove("hidden");
+    }, 300));
+  </script>
 </head>
 
 <body id="top">
@@ -173,8 +177,8 @@
       </div>
     </main>
 
-    <!-- <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
-    <script src="scripts/main.js" defer></script> -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 
 
     <!-- Google Analytics -->
