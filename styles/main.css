@@ -29,8 +29,9 @@ a {
   color: #048679;
 }
 
-#splash-pg-left {
+#splash-pg-left, #splash-pg-right {
   max-height: 70vh;
+  margin: auto;
 }
 
 /* mobile-small */
@@ -39,7 +40,7 @@ a {
     justify-content: center;
   }
   #splash-pg-left {
-    margin-top: -20%;
+    margin-top: -10%;
   }
 }
 
@@ -56,9 +57,7 @@ a {
 }
 
 @media all and (orientation: portrait) {
-  .page-intro {
-    text-align: center;
-  }
+
   .splash-pg-left, .splash-pg-right {
     max-height: 40vh;
   }
@@ -77,6 +76,7 @@ a {
 }
 
 .page-intro {
+  text-align: center;
   font-weight: 400;
   line-height: normal;
   margin: 0;
@@ -84,13 +84,13 @@ a {
 
 .page-intro.page-title {
   font-family: "Dosis", sans-serif;
-  font-size: 3em;
+  font-size: 3.1em;
   color: #2d2b2b;
 }
 
 h2.page-intro {
   font-family: "Istok Web", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #5f5858;
   padding: 0;
 }
