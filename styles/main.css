@@ -134,7 +134,7 @@ h2.page-intro {
 }
 
 .mdl-card__actions {
-  display: none;
+  margin-top: auto;
 }
 
 #work-panel .portfolio-card {

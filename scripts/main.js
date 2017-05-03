@@ -3,7 +3,7 @@
  // fix this bug!
 document.addEventListener("DOMContentLoaded", setTimeout(function () {
   (document.querySelector(".hidden")).classList.remove("hidden");
-}, 100));
+}, 300));
 
 
 function goToContact() {
