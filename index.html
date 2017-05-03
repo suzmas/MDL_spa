@@ -10,13 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700|Open+Sans|Material+Icons|Dosis" rel="stylesheet">
   <link href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
-
-  <!-- hacky temporary code to control for tab panel bug - all content is showing up during page load -->
-  <script>
-    document.addEventListener("DOMContentLoaded", setTimeout(function () {
-      (document.querySelector(".hidden")).classList.remove("hidden");
-    }, 300));
-  </script>
+  <script src="scripts/main.js"></script>
 </head>
 
 <body id="top">
@@ -178,7 +172,6 @@
     </main>
 
     <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
-    <script src="scripts/main.js" defer></script>
 
 
     <!-- Google Analytics -->
