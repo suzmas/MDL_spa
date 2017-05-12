@@ -4,7 +4,6 @@
 document.addEventListener("DOMContentLoaded", setTimeout(showHidden, 1000));
 
 function showHidden() {
-  console.log("showing hidden");
   const hiddenElems = document.querySelectorAll(".hidden"); for (let i = 0; i < hiddenElems.length; i++) {
     hiddenElems[i].classList.remove("hidden");
   }
