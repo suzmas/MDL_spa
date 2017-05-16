@@ -15,8 +15,8 @@ a {
   width: 100vw;
   background-color: white;
   z-index: 3;
-  position: sticky;
   position: -webkit-sticky;
+  position: sticky;
   top: -1px;
   font-family: 'Istok Web', open-sans;
   justify-content: flex-end;
