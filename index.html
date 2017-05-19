@@ -21,6 +21,24 @@
 </head>
 
 <body id="top">
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '313156035771024',
+        xfbml      : true,
+        version    : 'v2.9'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
   <div class="mdl-layout mdl-js-layout mdl-color--grey-100
     "><a href="#" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><i class="material-icons">mail</i></a>
 
