@@ -23,5 +23,9 @@ function goToContact() {
   }
 }
 
+function triggerFBEvent() {
+  FB.AppEvents.logEvent("sentFriendRequeset");
+}
+
 var contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", goToContact);
