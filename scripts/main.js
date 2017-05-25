@@ -1,7 +1,7 @@
 
  // temporary hack to control for MDL tab-panel issue on page load
  // fix this bug!
-document.addEventListener("load", timerOut);
+window.addEventListener("load", showHidden);
 
 function timerOut() {
   setTimeout(showHidden, 1000);
