@@ -13,15 +13,15 @@
             <image:caption>Virtual Reality with AFrame.js</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.comimg/voxlVR.png</image:loc>
+            <image:loc>http://suzmas.com/img/voxlVR.png</image:loc>
             <image:caption>Virtual Reality Game Similar to Minecraft</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.comimg/realsimple.png</image:loc>
+            <image:loc>http://suzmas.com/img/realsimple.png</image:loc>
             <image:caption>Minimal Jekyll Theme</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.comimg/hh_landingpg-mockup.png</image:loc>
+            <image:loc>http://suzmas.com/img/hh_landingpg-mockup.png</image:loc>
             <image:caption>Happy Hour Finder San Diego</image:caption>
         </image:image>
     </url>
