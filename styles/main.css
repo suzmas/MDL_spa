@@ -35,6 +35,7 @@ a {
 }
 
 #splash-pg-left img {
+  width: 100%;
   max-width: 500px;
 }
 
@@ -84,7 +85,7 @@ a {
 h2.page-intro {
   font-family: "Istok Web", sans-serif;
   font-size: 18px;
-  color: #5f5858;
+  color: #4e4b4b;
   padding: 0;
 }
 
