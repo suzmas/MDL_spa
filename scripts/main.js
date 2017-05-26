@@ -1,11 +1,6 @@
 
- // temporary hack to control for MDL tab-panel issue on page load
- // fix this bug!
+// control for MDL formatting issue on page load
 window.addEventListener("load", showHidden);
-
-function timerOut() {
-  setTimeout(showHidden, 1000);
-}
 
 function showHidden() {
   const hiddenElems = document.querySelectorAll(".hidden"); for (let i = 0; i < hiddenElems.length; i++) {
@@ -13,6 +8,7 @@ function showHidden() {
   }
 }
 
+// Force MDL to activate "contact" navigation tab on mail icon click
 function goToContact() {
   const activeElements = document.querySelectorAll('.is-active');
   const contactElements =
@@ -23,9 +19,8 @@ function goToContact() {
   }
 }
 
-function triggerFBEvent() {
-  FB.AppEvents.logEvent("sentFriendRequeset");
-}
-
 var contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", goToContact);
+
+const snoops = "Hello fellow snoopy dev :-) \nThanks for visiting! \n\nIn case you're hiring... my resume can be found at: http://suzmas.com/resume";
+console.log(snoops);
