@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:og="http://ogp.me/ns#"
-   xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
 
 <head>
   <meta charset="UTF-8">
@@ -18,7 +17,7 @@
   <meta property="fb:app_id" content="313156035771024">
   <!-- end Open Graph -->
   <!-- Pinterest Share Backlinks -->
-  <meta name="p:domain_verify" content="0b56136ad3804382a84c615599dd997c"/>
+  <meta name="p:domain_verify" content="0b56136ad3804382a84c615599dd997c" />
   <!-- end Pinterest -->
 
   <script type="application/ld+json">
@@ -52,23 +51,27 @@
 
 <body id="top">
 
-  <script> // FB Pageview settings
+  <script>
+    // FB Pageview settings
     window.fbAsyncInit = function() {
       FB.init({
-        appId      : '313156035771024',
-        xfbml      : true,
-        version    : 'v2.9'
+        appId: '313156035771024',
+        xfbml: true,
+        version: 'v2.9'
       });
       FB.AppEvents.logPageView();
     };
 
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   </script>
 
 
@@ -84,7 +87,7 @@
           <a href="#contact-panel" class="mdl-tabs__tab contact">Contact</a>
         </div>
         <div class="site-content">
-<!-- LANDING PG TAB -->
+          <!-- LANDING PG TAB -->
           <div class="container mdl-tabs__panel is-active" id="home-panel">
             <div class="mdl-grid site-max-width">
               <div id="splash-pg-left" class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card welcome-card portfolio-card">
@@ -106,7 +109,7 @@
               </div>
             </div>
           </div>
-<!-- PORTFOLIO TAB -->
+          <!-- PORTFOLIO TAB -->
           <div class="container mdl-tabs__panel hidden" id="work-panel">
             <div class="mdl-grid site-max-width">
               <div class="mdl-cell mdl-card mdl-shadow--2dp portfolio-card hidden">
@@ -181,7 +184,8 @@
                   <h2 class="mdl-card__title-text">Happy Hour Finder</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                   Very creative name, I know. This is a web app to connect users with restaurant/bar happy-hours. Why? Because finding happy-hour details on Yelp is a digging expedition. Users can filter by time, distance, and events going on right now - then easily access info on daily specials. Currently being developed using React, Rails, Postgres, Bootstrap-React, and Leaflet maps.
+                  Very creative name, I know. This is a web app to connect users with restaurant/bar happy-hours. Why? Because finding happy-hour details on Yelp is a digging expedition. Users can filter by time, distance, and events going on right now - then easily access
+                  info on daily specials. Currently being developed using React, Rails, Postgres, Bootstrap-React, and Leaflet maps.
                 </div><br>
                 <div class="mdl-card__actions mdl-card--border">
                   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/suzmas/react-rails">
@@ -197,7 +201,8 @@
                   <h2 class="mdl-card__title-text">Vanilla JS</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                  Fun DOM manipulation with no libraries. This little project does async updates to animate the UI as a user inputs search text. Uses Wunderground API for autocompletion and TimeZonedb API to display the time in each city. Next mini-feature: add .tick() function to update the time while it's displayed.
+                  Fun DOM manipulation with no libraries. This little project does async updates to animate the UI as a user inputs search text. Uses Wunderground API for autocompletion and TimeZonedb API to display the time in each city. Next mini-feature: add .tick()
+                  function to update the time while it's displayed.
                 </div><br>
                 <div class="mdl-card__actions mdl-card--border">
                   <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="http://suzmas.com/vanillaJS/autocomplete">
@@ -205,10 +210,10 @@
                   </a>
                 </div>
               </div><br>
-              </div>
             </div>
+          </div>
 
-<!-- CONTACT TAB -->
+          <!-- CONTACT TAB -->
           <div class="container mdl-tabs__panel contact hidden" id="contact-panel">
             <div class="mdl-grid site-max-width">
               <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
@@ -251,21 +256,21 @@
 
 
     <!-- Google Analytics -->
-     <script>
-       (function(i, s, o, g, r, a, m) {
-         i['GoogleAnalyticsObject'] = r;
-         i[r] = i[r] || function() {
-           (i[r].q = i[r].q || []).push(arguments)
-         }, i[r].l = 1 * new Date();
-         a = s.createElement(o),
-           m = s.getElementsByTagName(o)[0];
-         a.async = 1;
-         a.src = g;
-         m.parentNode.insertBefore(a, m)
-       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-       ga('create', 'UA-96929900-1', 'auto');
-       ga('send', 'pageview');
-     </script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-96929900-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
