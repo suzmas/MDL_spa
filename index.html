@@ -77,7 +77,7 @@
 
 
   <div class="mdl-layout mdl-js-layout mdl-color--grey-100
-    "><a href="#" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"><i class="material-icons">mail</i></a>
+    "><a href="#" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-cell--hide-phone hvr-grow"><i class="material-icons">mail</i></a>
 
     <main class="mdl-layout__content">
       <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
@@ -90,11 +90,11 @@
         <div class="site-content">
           <!-- LANDING PG TAB -->
           <div class="container mdl-tabs__panel is-active" id="home-panel">
-            <div class="mdl-grid site-max-width">
-              <div id="splash-pg-left" class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card welcome-card portfolio-card">
+            <div class="mdl-grid site-max-width fh-minus-nav">
+              <div id="splash-pg-left" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card welcome-card portfolio-card">
                 <img id="splash-svg" src="./img/suzan.svg" alt=""></img>
               </div>
-              <div id="splash-pg-right" class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card welcome-card portfolio-card">
+              <div id="splash-pg-right" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card welcome-card portfolio-card">
                 <div class="mdl-card__supporting-text">
                   <h2 class="page-intro page-title">Hi, I'm Suzan</h2>
                   <h2 class="page-intro">I'm a software developer<br>and I build neat things with code.</h2>
@@ -112,7 +112,7 @@
           </div>
           <!-- PORTFOLIO TAB -->
           <div class="container mdl-tabs__panel hidden" id="work-panel">
-            <div class="mdl-grid site-max-width">
+            <div class="mdl-grid site-max-width p1">
               <div class="mdl-cell mdl-card mdl-shadow--2dp portfolio-card hidden">
                 <div class="mdl-card__media">
                   <img class="article-image" src="img/volunteerup.png" border="0" alt="">
@@ -215,15 +215,15 @@
           </div>
 
           <!-- CONTACT TAB -->
-          <div class="container mdl-tabs__panel contact hidden" id="contact-panel">
+          <div class="container mdl-tabs__panel contact hidden fh-minus-nav" id="contact-panel">
             <div class="mdl-grid site-max-width">
-              <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
                 <div class="mdl-grid site-copy">
-                  <div class="mdl-cell mdl-cell--12-col">
+                  <div class="mdl-cell mdl-cell--12-col pt1 pr1 pl1">
                     <p>You can find me on <a href="http://github.com/suzmas">Github</a>, <a href="http://twitter.com/suzanmsu">Twitter</a>, and <a href="http://linkedin.com/in/suzan-sucro">LinkedIn</a>.</p>
                     <div class="mdl-card__supporting-text">
                       <form action="https://formspree.io/suzanmsucro@gmail.com" method="POST" class="form-contact">
-                        <p>Or, send me a message :-)</p>
+                        <p class="font-sm">Or, send me a message :-)</p>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                           <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" name="name">
                           <label class="mdl-textfield__label" for="Name"> Name</label>
