@@ -79,7 +79,7 @@ img {
 
 @media all and (min-width: 0) and (max-width: 479px) and (orientation: portrait) {
   .navigation-tabs {
-    justify-content: center;
+    justify-content: center!important;
   }
   #splash-pg-left {
     margin-top: -10%;
