@@ -20,6 +20,3 @@ function goToContact() {
 
 var contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", goToContact);
-
-const snoops = "Hello fellow snoopy dev :-) \nThanks for visiting! \n\nIn case you're hiring... my resume can be found at: http://suzmas.com/resume";
-console.log(snoops);
