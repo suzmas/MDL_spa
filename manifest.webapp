@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Suzan Sucro Personal Website",
+  "launch_path": "/index.html",
+  "description": "Software Development Portfolio and Contact Page for Suzan Sucro",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Suzan Sucro",
+    "url": "https://suzmas.github.io"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Suzan Sucro",
+      "description": "Software Development Portfolio and Contact Page for Suzan Sucro"
+    }
+  }
+}
