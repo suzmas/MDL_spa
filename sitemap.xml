@@ -3,40 +3,37 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>http://suzmas.com</loc>
+        <loc>https://suzmas.github.io</loc>
         <image:image>
-            <image:loc>http://suzmas.com/img/volunteerup.png</image:loc>
+            <image:loc>https://suzmas.github.io/img/volunteerup.png</image:loc>
             <image:caption>Volunteer Management App</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.com/img/AFrame.png</image:loc>
+            <image:loc>https://suzmas.github.io/img/AFrame.png</image:loc>
             <image:caption>Virtual Reality with AFrame.js</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.com/img/voxlVR.png</image:loc>
+            <image:loc>https://suzmas.github.io/img/voxlVR.png</image:loc>
             <image:caption>Virtual Reality Game Similar to Minecraft</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.com/img/realsimple.png</image:loc>
+            <image:loc>https://suzmas.github.io/img/realsimple.png</image:loc>
             <image:caption>Minimal Jekyll Theme</image:caption>
         </image:image>
         <image:image>
-            <image:loc>http://suzmas.com/img/hh_landingpg-mockup.png</image:loc>
+            <image:loc>https://suzmas.github.io/img/hh_landingpg-mockup.png</image:loc>
             <image:caption>Happy Hour Finder San Diego</image:caption>
         </image:image>
     </url>
 
-    <url>
-        <loc>http://suzmas.com/resume.html</loc>
-    </url>
 
     <url>
-        <loc>http://suzmas.com/AFrame</loc>
+        <loc>https://suzmas.github.io/AFrame</loc>
     </url>
     <url>
-        <loc>http://suzmas.com/AFrame/spaceship</loc>
+        <loc>https://suzmas.github.io/AFrame/spaceship</loc>
     </url>
     <url>
-      <loc>http://suzmas.com/vanillaJS/autocomplete</loc>
+      <loc>https://suzmas.github.io/vanillaJS/autocomplete</loc>
     </url>
 </urlset>
